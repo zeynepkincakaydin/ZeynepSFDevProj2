@@ -1,0 +1,11 @@
+NewCar nc=new NewCar();
+nc.startCar('Honda', 'CRV');
+nc.Accelerate(80);
+nc.checkSpeed();
+nc.Breake(55);
+nc.checkSpeed();
+nc.Accelerate(10);
+nc.checkSpeed();
+nc.Breake(40);
+nc.checkSpeed();
+nc.stopCar();
